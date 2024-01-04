@@ -48,5 +48,5 @@ If you would like to contribute to the development of adminiCluck App, feel free
 
 
 
-                                                                                  it'sZoral1 peace out ^_^
+                                                                it'sZoral1 peace out ^_^
 
