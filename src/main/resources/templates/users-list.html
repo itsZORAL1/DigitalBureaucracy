@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User List</title>
+</head>
+<body>
+    <h1>User List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <!-- Add more table headers for other user properties -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.id}">User ID</td>
+                <td th:text="${user.nom}">User Name</td>
+                <td th:text="${user.email}">User Email</td>
+                <!-- Add more table data cells for other user properties -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
